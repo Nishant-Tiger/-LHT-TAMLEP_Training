@@ -1,0 +1,311 @@
+Script started on 2023-06-09 13:33:36+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+(base) ]0;nishant@TIGER03174: ~[01;32mnishant@TIGER03174[00m:[01;34m~[00m$ [K(base) ]0;nishant@TIGER03174: ~[01;32mnishant@TIGER03174[00m:[01;34m~[00m$ ls
+[0m[01;34mDownloads[0m  [01;34mTAMLEP[0m  [01;34mdatascience[0m  [01;34mgithub_repo[0m  [01;34mminiconda3[0m  my_git_session  my_git_session_2
+(base) ]0;nishant@TIGER03174: ~[01;32mnishant@TIGER03174[00m:[01;34m~[00m$ cd github_repo/
+(base) ]0;nishant@TIGER03174: ~/github_repo[01;32mnishant@TIGER03174[00m:[01;34m~/github_repo[00m$ ls
+[0m[01;34mLHT-TAMLEP_Training[0m
+(base) ]0;nishant@TIGER03174: ~/github_repo[01;32mnishant@TIGER03174[00m:[01;34m~/github_repo[00m$ cd LJ[KHT-TAMLEP_Training/
+(base) ]0;nishant@TIGER03174: ~/github_repo/LHT-TAMLEP_Training[01;32mnishant@TIGER03174[00m:[01;34m~/github_repo/LHT-TAMLEP_Training[00m$ ls
+[0m[01;34mFiles[0m  README.md
+(base) ]0;nishant@TIGER03174: ~/github_repo/LHT-TAMLEP_Training[01;32mnishant@TIGER03174[00m:[01;34m~/github_repo/LHT-TAMLEP_Training[00m$ git config
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --default <value>     with --get, use default value when missing entry
+
+(base) ]0;nishant@TIGER03174: ~/github_repo/LHT-TAMLEP_Training[01;32mnishant@TIGER03174[00m:[01;34m~/github_repo/LHT-TAMLEP_Training[00m$ git config[K[K[K[K[K[Kbranch
+[?1h=* [32mmain[m[m
+[K[?1l>(base) ]0;nishant@TIGER03174: ~/github_repo/LHT-TAMLEP_Training[01;32mnishant@TIGER03174[00m:[01;34m~/github_repo/LHT-TAMLEP_Training[00m$ mkdir [K[K[K[K[K[Kls
+[0m[01;34mFiles[0m  README.md
+(base) ]0;nishant@TIGER03174: ~/github_repo/LHT-TAMLEP_Training[01;32mnishant@TIGER03174[00m:[01;34m~/github_repo/LHT-TAMLEP_Training[00m$ cd Files/
+(base) ]0;nishant@TIGER03174: ~/github_repo/LHT-TAMLEP_Training/Files[01;32mnishant@TIGER03174[00m:[01;34m~/github_repo/LHT-TAMLEP_Training/Files[00m$ ls
+[0m[01;34mAssignment_1.1[0m
+(base) ]0;nishant@TIGER03174: ~/github_repo/LHT-TAMLEP_Training/Files[01;32mnishant@TIGER03174[00m:[01;34m~/github_repo/LHT-TAMLEP_Training/Files[00m$ cp Assignment_1.1/[K-Assignment_1.1RAssignment_1.1 Assignment_1.1[C[C[C[C[C[C[C[C[C[C[C[C[C[C [1P 
+cp: missing destination file operand after 'Assignment_1.'
+Try 'cp --help' for more information.
+(base) ]0;nishant@TIGER03174: ~/github_repo/LHT-TAMLEP_Training/Files[01;32mnishant@TIGER03174[00m:[01;34m~/github_repo/LHT-TAMLEP_Training/Files[00m$ cd ..
+(base) ]0;nishant@TIGER03174: ~/github_repo/LHT-TAMLEP_Training[01;32mnishant@TIGER03174[00m:[01;34m~/github_repo/LHT-TAMLEP_Training[00m$ cd ..p -R Assignment_1. 1 [C[1@F[1@i[4@les/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CAssignment_1.1
+(base) ]0;nishant@TIGER03174: ~/github_repo/LHT-TAMLEP_Training[01;32mnishant@TIGER03174[00m:[01;34m~/github_repo/LHT-TAMLEP_Training[00m$ ls
+[0m[01;34mAssignment_1.1[0m  [01;34mFiles[0m  README.md
+(base) ]0;nishant@TIGER03174: ~/github_repo/LHT-TAMLEP_Training[01;32mnishant@TIGER03174[00m:[01;34m~/github_repo/LHT-TAMLEP_Training[00m$ cd Assignment_1.1/
+(base) ]0;nishant@TIGER03174: ~/github_repo/LHT-TAMLEP_Training/Assignment_1.1[01;32mnishant@TIGER03174[00m:[01;34m~/github_repo/LHT-TAMLEP_Training/Assignment_1.1[00m$ ls
+my_unix_session_1  [0m[01;34mshell-lesson-data[0m
+(base) ]0;nishant@TIGER03174: ~/github_repo/LHT-TAMLEP_Training/Assignment_1.1[01;32mnishant@TIGER03174[00m:[01;34m~/github_repo/LHT-TAMLEP_Training/Assignment_1.1[00m$ cd ..
+(base) ]0;nishant@TIGER03174: ~/github_repo/LHT-TAMLEP_Training[01;32mnishant@TIGER03174[00m:[01;34m~/github_repo/LHT-TAMLEP_Training[00m$ rmdir Files/[K
+rmdir: failed to remove 'Files': Directory not empty
+(base) ]0;nishant@TIGER03174: ~/github_repo/LHT-TAMLEP_Training[01;32mnishant@TIGER03174[00m:[01;34m~/github_repo/LHT-TAMLEP_Training[00m$ rmdir Files[C[C[1P Files[1P Files[1P Files[C Files- Filesr Files
+(base) ]0;nishant@TIGER03174: ~/github_repo/LHT-TAMLEP_Training[01;32mnishant@TIGER03174[00m:[01;34m~/github_repo/LHT-TAMLEP_Training[00m$ ls
+[0m[01;34mAssignment_1.1[0m  README.md
+(base) ]0;nishant@TIGER03174: ~/github_repo/LHT-TAMLEP_Training[01;32mnishant@TIGER03174[00m:[01;34m~/github_repo/LHT-TAMLEP_Training[00m$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mdeleted:    Files/Assignment_1.1/my_unix_session_1[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/exercise-data/alkanes/alkanes.pdb[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/exercise-data/alkanes/all.pdb[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/exercise-data/alkanes/cubane.pdb[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/exercise-data/alkanes/ethane.pdb[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/exercise-data/alkanes/lengths.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/exercise-data/alkanes/methane.pdb[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/exercise-data/alkanes/middle.sh[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/exercise-data/alkanes/octane.pdb[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/exercise-data/alkanes/pentane.pdb[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/exercise-data/alkanes/propane.pdb[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/exercise-data/alkanes/sorted-lengths.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/exercise-data/alkanes/sorted.sh[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/exercise-data/alkanes/test1.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/exercise-data/alkanes/test2.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/exercise-data/animal-counts/animals-subset.csv[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/exercise-data/animal-counts/animals.csv[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/exercise-data/animal-counts/redo-figure-3.sh[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/exercise-data/animal-counts/species.sh[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/exercise-data/backup/minotaur.dat[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/exercise-data/backup/unicorn.dat[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/exercise-data/creatures/basilisk.dat[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/exercise-data/creatures/minotaur.dat[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/exercise-data/creatures/original-basilisk.dat[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/exercise-data/creatures/original-minotaur.dat[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/exercise-data/creatures/original-unicorn.dat[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/exercise-data/creatures/unicorn.dat[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/exercise-data/numbers_modified.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/exercise-data/writing/LittleWomen.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/exercise-data/writing/haiku.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/exercise-data/writing/thesis/quotations.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01729A.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01729B.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01736A.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01751A.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01751B.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01812A.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01843A.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01843B.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01971Z.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01978A.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01978B.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE02018B.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE02040A.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE02040B.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE02040Z.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE02043A.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE02043B.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/do_stats.sh[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/goodiff.sh[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/goostats.sh[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE01729A.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE01729B.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE01736A.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE01751A.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE01751B.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE01812A.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE01843A.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE01843B.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE01978A.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE01978B.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE02018B.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE02040A.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE02040B.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE02043A.txt[m
+	[31mdeleted:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE02043B.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mAssignment_1.1/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) ]0;nishant@TIGER03174: ~/github_repo/LHT-TAMLEP_Training[01;32mnishant@TIGER03174[00m:[01;34m~/github_repo/LHT-TAMLEP_Training[00m$ git add .
+(base) ]0;nishant@TIGER03174: ~/github_repo/LHT-TAMLEP_Training[01;32mnishant@TIGER03174[00m:[01;34m~/github_repo/LHT-TAMLEP_Training[00m$ git statyu[K[Kus
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mrenamed:    Files/Assignment_1.1/my_unix_session_1 -> Assignment_1.1/my_unix_session_1[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/exercise-data/alkanes/alkanes.pdb -> Assignment_1.1/shell-lesson-data/exercise-data/alkanes/alkanes.pdb[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/exercise-data/alkanes/all.pdb -> Assignment_1.1/shell-lesson-data/exercise-data/alkanes/all.pdb[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/exercise-data/alkanes/cubane.pdb -> Assignment_1.1/shell-lesson-data/exercise-data/alkanes/cubane.pdb[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/exercise-data/alkanes/ethane.pdb -> Assignment_1.1/shell-lesson-data/exercise-data/alkanes/ethane.pdb[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/exercise-data/alkanes/lengths.txt -> Assignment_1.1/shell-lesson-data/exercise-data/alkanes/lengths.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/exercise-data/alkanes/methane.pdb -> Assignment_1.1/shell-lesson-data/exercise-data/alkanes/methane.pdb[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/exercise-data/alkanes/middle.sh -> Assignment_1.1/shell-lesson-data/exercise-data/alkanes/middle.sh[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/exercise-data/alkanes/octane.pdb -> Assignment_1.1/shell-lesson-data/exercise-data/alkanes/octane.pdb[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/exercise-data/alkanes/pentane.pdb -> Assignment_1.1/shell-lesson-data/exercise-data/alkanes/pentane.pdb[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/exercise-data/alkanes/propane.pdb -> Assignment_1.1/shell-lesson-data/exercise-data/alkanes/propane.pdb[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/exercise-data/alkanes/sorted-lengths.txt -> Assignment_1.1/shell-lesson-data/exercise-data/alkanes/sorted-lengths.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/exercise-data/alkanes/sorted.sh -> Assignment_1.1/shell-lesson-data/exercise-data/alkanes/sorted.sh[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/exercise-data/alkanes/test1.txt -> Assignment_1.1/shell-lesson-data/exercise-data/alkanes/test1.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/exercise-data/alkanes/test2.txt -> Assignment_1.1/shell-lesson-data/exercise-data/alkanes/test2.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/exercise-data/animal-counts/animals-subset.csv -> Assignment_1.1/shell-lesson-data/exercise-data/animal-counts/animals-subset.csv[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/exercise-data/animal-counts/animals.csv -> Assignment_1.1/shell-lesson-data/exercise-data/animal-counts/animals.csv[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/exercise-data/animal-counts/redo-figure-3.sh -> Assignment_1.1/shell-lesson-data/exercise-data/animal-counts/redo-figure-3.sh[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/exercise-data/animal-counts/species.sh -> Assignment_1.1/shell-lesson-data/exercise-data/animal-counts/species.sh[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/exercise-data/backup/minotaur.dat -> Assignment_1.1/shell-lesson-data/exercise-data/backup/minotaur.dat[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/exercise-data/backup/unicorn.dat -> Assignment_1.1/shell-lesson-data/exercise-data/backup/unicorn.dat[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/exercise-data/creatures/basilisk.dat -> Assignment_1.1/shell-lesson-data/exercise-data/creatures/basilisk.dat[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/exercise-data/creatures/minotaur.dat -> Assignment_1.1/shell-lesson-data/exercise-data/creatures/minotaur.dat[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/exercise-data/creatures/original-basilisk.dat -> Assignment_1.1/shell-lesson-data/exercise-data/creatures/original-basilisk.dat[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/exercise-data/creatures/original-minotaur.dat -> Assignment_1.1/shell-lesson-data/exercise-data/creatures/original-minotaur.dat[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/exercise-data/creatures/original-unicorn.dat -> Assignment_1.1/shell-lesson-data/exercise-data/creatures/original-unicorn.dat[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/exercise-data/creatures/unicorn.dat -> Assignment_1.1/shell-lesson-data/exercise-data/creatures/unicorn.dat[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/exercise-data/numbers_modified.txt -> Assignment_1.1/shell-lesson-data/exercise-data/numbers_modified.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/exercise-data/writing/LittleWomen.txt -> Assignment_1.1/shell-lesson-data/exercise-data/writing/LittleWomen.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/exercise-data/writing/haiku.txt -> Assignment_1.1/shell-lesson-data/exercise-data/writing/haiku.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/exercise-data/writing/thesis/quotations.txt -> Assignment_1.1/shell-lesson-data/exercise-data/writing/thesis/quotations.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01729A.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01729A.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01729B.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01729B.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01736A.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01736A.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01751A.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01751A.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01751B.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01751B.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01812A.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01812A.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01843A.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01843A.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01843B.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01843B.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01971Z.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01971Z.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01978A.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01978A.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01978B.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE01978B.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE02018B.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE02018B.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE02040A.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE02040A.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE02040B.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE02040B.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE02040Z.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE02040Z.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE02043A.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE02043A.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE02043B.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/NENE02043B.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/do_stats.sh -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/do_stats.sh[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/goodiff.sh -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/goodiff.sh[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/goostats.sh -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/goostats.sh[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE01729A.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE01729A.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE01729B.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE01729B.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE01736A.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE01736A.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE01751A.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE01751A.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE01751B.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE01751B.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE01812A.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE01812A.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE01843A.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE01843A.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE01843B.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE01843B.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE01978A.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE01978A.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE01978B.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE01978B.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE02018B.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE02018B.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE02040A.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE02040A.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE02040B.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE02040B.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE02043A.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE02043A.txt[m
+	[32mrenamed:    Files/Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE02043B.txt -> Assignment_1.1/shell-lesson-data/north-pacific-gyre/stats-NENE02043B.txt[m
+
+(base) ]0;nishant@TIGER03174: ~/github_repo/LHT-TAMLEP_Training[01;32mnishant@TIGER03174[00m:[01;34m~/github_repo/LHT-TAMLEP_Training[00m$ git commit -m ''S'O'm'e' 'c'h'a'n'g'e's'
+[main fabd716] SOme changes
+ 66 files changed, 0 insertions(+), 0 deletions(-)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/my_unix_session_1 (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/exercise-data/alkanes/alkanes.pdb (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/exercise-data/alkanes/all.pdb (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/exercise-data/alkanes/cubane.pdb (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/exercise-data/alkanes/ethane.pdb (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/exercise-data/alkanes/lengths.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/exercise-data/alkanes/methane.pdb (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/exercise-data/alkanes/middle.sh (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/exercise-data/alkanes/octane.pdb (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/exercise-data/alkanes/pentane.pdb (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/exercise-data/alkanes/propane.pdb (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/exercise-data/alkanes/sorted-lengths.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/exercise-data/alkanes/sorted.sh (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/exercise-data/alkanes/test1.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/exercise-data/alkanes/test2.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/exercise-data/animal-counts/animals-subset.csv (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/exercise-data/animal-counts/animals.csv (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/exercise-data/animal-counts/redo-figure-3.sh (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/exercise-data/animal-counts/species.sh (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/exercise-data/backup/minotaur.dat (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/exercise-data/backup/unicorn.dat (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/exercise-data/creatures/basilisk.dat (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/exercise-data/creatures/minotaur.dat (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/exercise-data/creatures/original-basilisk.dat (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/exercise-data/creatures/original-minotaur.dat (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/exercise-data/creatures/original-unicorn.dat (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/exercise-data/creatures/unicorn.dat (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/exercise-data/numbers_modified.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/exercise-data/writing/LittleWomen.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/exercise-data/writing/haiku.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/exercise-data/writing/thesis/quotations.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/NENE01729A.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/NENE01729B.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/NENE01736A.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/NENE01751A.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/NENE01751B.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/NENE01812A.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/NENE01843A.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/NENE01843B.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/NENE01971Z.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/NENE01978A.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/NENE01978B.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/NENE02018B.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/NENE02040A.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/NENE02040B.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/NENE02040Z.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/NENE02043A.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/NENE02043B.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/do_stats.sh (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/goodiff.sh (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/goostats.sh (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/stats-NENE01729A.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/stats-NENE01729B.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/stats-NENE01736A.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/stats-NENE01751A.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/stats-NENE01751B.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/stats-NENE01812A.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/stats-NENE01843A.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/stats-NENE01843B.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/stats-NENE01978A.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/stats-NENE01978B.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/stats-NENE02018B.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/stats-NENE02040A.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/stats-NENE02040B.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/stats-NENE02043A.txt (100%)
+ rename {Files/Assignment_1.1 => Assignment_1.1}/shell-lesson-data/north-pacific-gyre/stats-NENE02043B.txt (100%)
+(base) ]0;nishant@TIGER03174: ~/github_repo/LHT-TAMLEP_Training[01;32mnishant@TIGER03174[00m:[01;34m~/github_repo/LHT-TAMLEP_Training[00m$ git push origin main
+Username for 'https://github.com': Nishant-Tiger
+Password for 'https://Nishant-Tiger@github.com': 
+Enumerating objects: 3, done.
+Counting objects:  33% (1/3)Counting objects:  66% (2/3)Counting objects: 100% (3/3)Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects:  50% (1/2)Compressing objects: 100% (2/2)Compressing objects: 100% (2/2), done.
+Writing objects:  50% (1/2)Writing objects: 100% (2/2)Writing objects: 100% (2/2), 289 bytes | 289.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0)
+To https://github.com/Nishant-Tiger/LHT-TAMLEP_Training.git
+   d4b89a4..fabd716  main -> main
+(base) ]0;nishant@TIGER03174: ~/github_repo/LHT-TAMLEP_Training[01;32mnishant@TIGER03174[00m:[01;34m~/github_repo/LHT-TAMLEP_Training[00m$ exit
+exit
+
+Script done on 2023-06-09 18:04:35+05:30 [COMMAND_EXIT_CODE="0"]
