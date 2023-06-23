@@ -20,12 +20,13 @@ def fetch_housing_data(housing_url=HOUSING_URL, housing_path=HOUSING_PATH):
     housing_tgz.close()
 
 import pandas as pd
+fetch_housing_data()
 
 def load_housing_data(housing_path=HOUSING_PATH):
     csv_path = os.path.join(housing_path, "housing.csv")
     return pd.read_csv(csv_path)
 
-housing = load_housing_data
+housing = load_housing_data()
 
 from sklearn.model_selection import train_test_split
 
@@ -60,8 +61,8 @@ for set_ in (strat_train_set, strat_test_set):
     set_.drop("income_cat", axis=1, inplace=True)
 
 housing = strat_train_set.copy()
-housing.plot(kind="scatter", x="longitude", y="latitude")
-housing.plot(kind="scatter", x="longitude", y="latitude", alpha=0.1)
+#housing.plot(kind="scatter", x="longitude", y="latitude")
+#housing.plot(kind="scatter", x="longitude", y="latitude", alpha=0.1)
 
 corr_matrix = housing.corr()
 corr_matrix["median_house_value"].sort_values(ascending=False)
@@ -98,12 +99,13 @@ from sklearn.metrics import mean_squared_error
 housing_predictions = lin_reg.predict(housing_prepared)
 lin_mse = mean_squared_error(housing_labels, housing_predictions)
 lin_rmse = np.sqrt(lin_mse)
-lin_rmse
+print('lin_rmse: ',lin_rmse)
 
 
 from sklearn.metrics import mean_absolute_error
 lin_mae = mean_absolute_error(housing_labels, housing_predictions)
 lin_mae
+print('lin_mae: ',lin_mae)
 
 
 from sklearn.tree import DecisionTreeRegressor
@@ -115,6 +117,7 @@ housing_predictions = tree_reg.predict(housing_prepared)
 tree_mse = mean_squared_error(housing_labels, housing_predictions)
 tree_rmse = np.sqrt(tree_mse)
 tree_rmse
+print('tree_rmse: ',tree_rmse)
 
 
 from sklearn.ensemble import RandomForestRegressor
@@ -150,7 +153,7 @@ grid_search = GridSearchCV(forest_reg, param_grid, cv=5,
                            scoring='neg_mean_squared_error', return_train_score=True)
 grid_search.fit(housing_prepared, housing_labels)
 
-grid_search.best_params_
+print('grid_search.best_params: ', grid_search.best_params_)
 cvres = grid_search.cv_results_
 for mean_score, params in zip(cvres["mean_test_score"], cvres["params"]):
     print(np.sqrt(-mean_score), params)

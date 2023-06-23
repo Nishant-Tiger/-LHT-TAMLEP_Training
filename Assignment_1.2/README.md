@@ -15,4 +15,11 @@ The following techniques have been used:
  - All the above said modelling techniques are tried and evaluated. The final metric used to evaluate is mean squared error.
 
 ## To excute the script
-python < scriptname.py >
+python non_standardcode.py
+
+## How to run  non_standardcode.py script code?
+1. Create a new conda environment mle-dev.
+2. Install the packages numpy, pandas, matplotlib, seaborn and scikit-learn.
+3. The function call fetch_housing_data() is missing, it will give error while calling loading function. So, we have to call this function after defining, so that it can retrieve from github.
+4. This python file is kind of designed as jupyter notebook, so we may have to print some output variables like RMSE, MAE, etc. for different regressors.
+5. Also, we may have to comment matplotlib plots, as running it in Ubuntu sometime cause plugin issues.
