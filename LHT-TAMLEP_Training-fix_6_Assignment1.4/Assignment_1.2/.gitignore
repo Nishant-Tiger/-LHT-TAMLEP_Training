@@ -1,0 +1,4 @@
+This ignore file .gitignore file is related to the repository
+to avoid committing unnecessary files like pyc 
+files and the CSV data files in your current folder.
+It is linked to issue Assignment_1.2 #2
