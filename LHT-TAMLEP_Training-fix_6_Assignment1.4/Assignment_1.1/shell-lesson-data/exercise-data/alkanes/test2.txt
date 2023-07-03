@@ -1,2 +1,0 @@
-Nishant
-The echo command prints text
